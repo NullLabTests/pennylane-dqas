@@ -1,16 +1,25 @@
+# Byte-compiled
 __pycache__/
-*.pyc
-*.egg-info/
-dist/
-build/
-.results/
-results/
-*.png
-*.jpg
-.venv/
+*.py[cod]
+*$py.class
+
+# Env
+.env
+.venv
 venv/
-.DS_Store
-*.so
+ENV/
+
+# IDE
 .vscode/
 .idea/
-*.local
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
